@@ -1,0 +1,101 @@
+object dtmSQL: TdtmSQL
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 312
+  HorizontalOffset = 350
+  VerticalOffset = 250
+  Width = 595
+  object dtsTabelas: TDataSource
+    DataSet = qryTabela
+    Left = 200
+    Top = 72
+  end
+  object dtsSource: TDataSource
+    DataSet = qrySource
+    Left = 124
+    Top = 152
+  end
+  object IBConn: TIBConnection
+    Connected = True
+    LoginPrompt = False
+    DatabaseName = 'C:\NB-Documentos\Clientes\Cato\ESC.GDB'
+    KeepConnection = False
+    Password = 'masterkey'
+    Transaction = IBTrans
+    UserName = 'sysdba'
+    HostName = 'localhost'
+    LogEvents = [detCustom, detPrepare, detExecute, detFetch, detCommit, detRollBack, detParamValue, detActualSQL]
+    CheckTransactionParams = True
+    UseConnectionCharSetIfNone = False
+    Left = 24
+    Top = 24
+  end
+  object qryTabela: TSQLQuery
+    FieldDefs = <>
+    Database = IBConn
+    Transaction = IBTrans
+    SQL.Strings = (
+      'SELECT RDB$RELATION_NAME AS TABELA'
+      'FROM RDB$RELATIONS'
+      'WHERE RDB$VIEW_BLR IS NULL'
+      '    AND RDB$FLAGS IS NOT NULL'
+    )
+    Options = [sqoRefreshUsingSelect]
+    Params = <>
+    Left = 200
+    Top = 8
+  end
+  object IBTrans: TSQLTransaction
+    Active = False
+    Action = caCommitRetaining
+    Database = IBConn
+    Options = [stoExplicitStart]
+    Left = 24
+    Top = 88
+  end
+  object qrySource: TSQLQuery
+    FieldDefs = <>
+    Database = IBConn
+    Transaction = IBTrans
+    Params = <>
+    Left = 124
+    Top = 88
+  end
+  object MSConn: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=True'
+      'controls_cp=CP_UTF8'
+    )
+    UseMetadata = False
+    TransactIsolationLevel = tiReadCommitted
+    HostName = 'localhost'
+    Port = 0
+    Database = 'esc_cato'
+    User = 'SA'
+    Password = 'E5120T18Kj'
+    Protocol = 'mssql'
+    LibraryLocation = 'C:\NB-Documentos\Clientes\Cato\Conversao\Lazarus\ntwdblib.dll'
+    Left = 406
+    Top = 63
+  end
+  object qryDestino: TZQuery
+    Connection = MSConn
+    Params = <>
+    Left = 409
+    Top = 120
+  end
+  object qryms_Aux: TZQuery
+    Connection = MSConn
+    Params = <>
+    Left = 406
+    Top = 184
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Left = 504
+    Top = 53
+  end
+end

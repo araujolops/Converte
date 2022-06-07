@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 350
+  Height = 872
+  Top = 93
+  Width = 1125
+  Caption = 'Form1'
+  ClientHeight = 872
+  ClientWidth = 1125
+  LCLVersion = '2.0.12.0'
+  object grdTabelas: TDBGrid
+    Left = 200
+    Height = 265
+    Top = 24
+    Width = 917
+    Anchors = [akTop, akLeft, akRight]
+    Color = clWindow
+    Columns = <>
+    DataSource = dtmSQL.dtsTabelas
+    TabOrder = 0
+    OnDblClick = grdTabelasDblClick
+  end
+  object btnTodos: TButton
+    Left = 88
+    Height = 25
+    Hint = 'Processa Todas as Tabelas'
+    Top = 24
+    Width = 75
+    Caption = 'Todas'
+    OnClick = btnTodosClick
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object grdProcessados: TDBGrid
+    Left = 192
+    Height = 320
+    Top = 297
+    Width = 917
+    Anchors = [akTop, akLeft, akRight]
+    Color = clWindow
+    Columns = <>
+    DataSource = dtmSQL.dtsSource
+    TabOrder = 2
+  end
+  object btnUnico: TButton
+    Left = 88
+    Height = 25
+    Hint = 'Processa somente uma tabela....'
+    Top = 64
+    Width = 75
+    Caption = 'Único'
+    OnClick = btnUnicoClick
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object Memo1: TMemo
+    Left = 192
+    Height = 238
+    Top = 626
+    Width = 917
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 80
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Button1'
+    TabOrder = 5
+  end
+end

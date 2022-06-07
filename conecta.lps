@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="conecta.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="10"/>
+        <UsageCount Value="121"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="conversao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Conversao"/>
+        <TopLine Value="250"/>
+        <CursorPos X="58" Y="311"/>
+        <UsageCount Value="121"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dtsql.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dtmSQL"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dtSQL"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="44" Y="50"/>
+        <UsageCount Value="121"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\Base.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="47" Y="2"/>
+        <UsageCount Value="121"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\DaoBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="8"/>
+        <UsageCount Value="121"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\fAlertaMSN.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAlertaMSN"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="89" Y="13"/>
+        <UsageCount Value="121"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\Constantes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="52" Y="17"/>
+        <UsageCount Value="121"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\TypInfoDelphi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="247"/>
+        <CursorPos X="3" Y="264"/>
+        <UsageCount Value="121"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\enUtil.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos Y="31"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\NB-IDE\Lazarus-210\config\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcDbLib.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="423"/>
+        <CursorPos X="37" Y="424"/>
+        <UsageCount Value="2"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\NB-IDE\Lazarus-210\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1652"/>
+        <CursorPos Y="1669"/>
+        <UsageCount Value="2"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\NB-IDE\Lazarus-210\config\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractRODataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2823"/>
+        <CursorPos Y="2823"/>
+        <UsageCount Value="7"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\NB-IDE\Lazarus-210\fpc\3.2.0\source\packages\fcl-db\src\base\db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2647"/>
+        <CursorPos X="38" Y="2668"/>
+        <UsageCount Value="7"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\NB-IDE\Lazarus-210\fpc\3.2.0\source\rtl\win32\system.pp"/>
+        <UnitName Value="System"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\NB-IDE\Lazarus-210\fpc\3.2.0\source\packages\rtl-objpas\src\inc\variants.pp"/>
+        <UnitName Value="Variants"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2912"/>
+        <CursorPos X="66" Y="2930"/>
+        <UsageCount Value="13"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\NB-IDE\Lazarus-210\fpc\3.2.0\source\rtl\inc\varianth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="11" Y="21"/>
+        <UsageCount Value="13"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\NB-IDE\Lazarus-212\Config\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcDbLib.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="417"/>
+        <CursorPos Y="439"/>
+        <UsageCount Value="36"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\NB-IDE\Lazarus-212\Config\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractRODataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="532"/>
+        <CursorPos X="33" Y="554"/>
+        <UsageCount Value="15"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\NB-IDE\Lazarus-212\fpc\3.2.0\source\packages\fcl-db\src\base\db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="409"/>
+        <CursorPos X="34" Y="424"/>
+        <UsageCount Value="27"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\NB-IDE\Lazarus-212\Config\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcConnection.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1330"/>
+        <CursorPos Y="1352"/>
+        <UsageCount Value="14"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\NB-IDE\Lazarus-212\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2401"/>
+        <CursorPos Y="2422"/>
+        <UsageCount Value="13"/>
+      </Unit20>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="C:\NB-IDE\Lazarus-210\fpc\3.2.0\source\packages\rtl-objpas\src\inc\variants.pp"/>
+        <Line Value="2924"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkData"/>
+        <WatchData Value="aValor"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkData"/>
+        <WatchData Value="dtmsql.qrySource.FieldByName(dtmsql.qrySource.Fields[i].FieldName).AsString"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+        <Actions EvalExpression="True"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item>
+        <Expression Value="aValor"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
